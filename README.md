@@ -1,22 +1,16 @@
-github-browse-file
+gitlab-browse-file
 ==================
 
-View the file you're editing in Emacs on GitHub.
+_Very slightly modified from `github-browse-file`_
 
-### Installation:
-
-Available as a package in [Marmalade](https://marmalade-repo.org/) and [MELPA](http://melpa.org/).
-
-`M-x package-install github-browse-file`
-
-You can change some defaults using `M-x customize-group github-browse-file`
+View the file you're editing in Emacs on GitLab.
 
 ### Usage:
-Call `github-browse-file` (for the git blob) or `github-browse-file-blame`
-(for the git blame) to view current file on GitHub. With a prefix argument
+Call `gitlab-browse-file` (for the git blob) or `gitlab-browse-file-blame`
+(for the git blame) to view current file on Gitlab. With a prefix argument
 (`C-u`), you can force them to use the "master" branch.
 
-`github-browse-commit` can be used to link to the current commit.
+`gitlab-browse-commit` can be used to link to the current commit.
 
 ### Contributors
 * [Charles Comstock](https://github.com/dgtized)
